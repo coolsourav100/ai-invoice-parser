@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Build outputs
+client/dist/
+server/dist/
+
+# Model artifacts — adapters live on Hugging Face Hub, not in git
+models/
+training/checkpoints/
+training/data/
+inference/models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+pgdata/
+
+# Logs
+*.log

@@ -1,0 +1,19 @@
+{
+  "name": "ai-invoice-parser-server",
+  "version": "1.0.0",
+  "description": "Node.js API gateway for AI Invoice Parser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
+  },
+  "license": "MIT"
+}
